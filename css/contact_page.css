@@ -1,0 +1,160 @@
+.hidden
+{
+	display: none;
+}
+a
+{
+	text-decoration: none;
+}
+
+
+#containeroutside 
+{
+	max-width: 1300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	background: #ffffff;
+}
+
+#header
+{
+	display: flex;
+	flex-direction: row;
+	height: 120px;
+	margin-top: 10px;
+	width: 100%;
+}
+#searchitems
+{   
+    font-family: 'Ballet', cursive;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 5px;
+ 	padding: auto;
+ 	margin-left: auto;
+ 	display: flex;
+ 	flex-direction: column;
+}
+#searchitems a
+{
+	padding-top: 12px;
+	font-size: 18px;
+	margin-left: auto;
+}
+#searchForm
+{
+	margin-left: auto;
+}
+
+#searchForm input
+{
+	width: 150px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	padding: 5px 20px 5px 30px; /*trbl*/
+	background-size: 20px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.15) inset;
+}
+
+#mainNav ul
+{
+	margin-top: 80px;
+	margin-left: 21px;
+	display: flex;
+	flex-direction: row;
+	background-color: #000000;
+	padding-left: 510px;
+}
+#mainNav ul li a
+{
+	display: flex;
+	width: 150px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 15px;
+	transition: all .4s ease-in-out; 
+    font-family: 'Ballet', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+    color: #050505;
+}
+#mainNav ul li a:hover
+{
+	background-color: #efefef;
+	color: #000000;
+}
+#logo
+{
+	display: flex;
+	height: 295px;
+	width: 70%;
+	margin-top: 8px;
+	margin-left: 20px;
+ }
+#containerinside
+{
+	max-width: 1200px;
+	height: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+ 
+ #infoMain
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	background-color: #000000;
+
+}
+
+#infoMain ul
+{
+	width: 600px;
+	height: 150px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: 8px;
+}
+
+
+
+
+
+#Contactarea
+{
+	width: 785px;
+	height: 275px;
+	background-color: black;
+	margin-top: 25px;
+}
+
+
+#footer
+{ display:flex;
+width: 100%;
+height: 80px;
+background-color: #000000;
+ align-items: center;
+margin-top: 20px;}
+
+#footer ul li
+ { float: right; 
+   margin-right: 50px;
+   font-family: Arial;
+   font-size: 14px;}
+ 
+

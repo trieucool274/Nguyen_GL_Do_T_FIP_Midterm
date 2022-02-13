@@ -2,45 +2,45 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Brand</title>
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-		<link href="css/main.css" rel="stylesheet" type="text/css">
-		
-	
+		<title>title</title>
+		<meta name="viewport" content="initial-scale=1.0, width=device-width">
+		<link href="css/product_page.css" rel="stylesheet" type="text/css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Ballet&family=Cinzel&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Ballet&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 	</head>
-		<body>
+	<body>
 		<!-- Content Goes Here -->
 		<h1 class="hidden">Main page</h1>
 		<div id="containeroutside">	
 			<header id="header">
-				<div id="space"> </div>
-				<div id="logo"> <img src="images/" alt="Main logo" width="400" height="230" >  </div>
+				<div id="logo"> <img src="images/" width="480" height="256" >  </div>
 				<div id="searchitems"> 	
-					<ul>
-						<img src="images/" alt="SearchIcon" width="25" height="20">
-						<input type="text" placeholder="Search...">
-					</ul>
-					<h3> Sign in /Sign Up </h3>
-					<h3> English /Francais </h3>		
+						<form id="searchForm">
+						<input type="text" placeholder="search here">
+					</form>
+					<a href="contact.html"> Sign in /Sign Up </a>
+					<a href="#"> English /Francais </a>		
 				</div>
 			</header>
-			<section id="wideimage">
-				<h2 class="hidden"> Wide image</h2>
-					<h2 id="homenav"><a href="index.html">Home</a></h2>
-					<h2 id="aboutnav"><a href="about.html">About</a></h2>
-					<h2 id="eventnav"><a href="advertisement.html">Event</a></h2>
-					<h2 id="contactnav"><a href="contact.html">Contact</a></h2>
-					<h2 id="productnav"><a href="product.html">Product</a></h2>			
-			</section>
+			<div id="mainNav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="advertisement.html">Event</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="product.html">Product</a></li>	
+				</ul>		
+			</div>
 			<div id="containerinside">
 				<section id="firstlineproduct">
 					<h2 class="hidden">Product1,2</h2>
 					<div id="Product1">
-						<img src="images/" alt="First product" width="310" height="360">
+						<img src="images/" width="310" height="360">
 					</div>
 					<p id="Product1text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sequi neque aliquam quaerat explicabo maxime praesentium numquam corrupti doloribus! Delectus in distinctio adipisci minus perspiciatis beatae, amet alias quasi placeat.
-						Price 3.99$
+						
 						<button><a href="product.html">Buy></a></button>
 					</p>
 
@@ -48,8 +48,6 @@
 						<img src="images/" alt="Second product" width="310" height="360">
 					</div>
 					<p id="Product2text">
-						Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus fuga necessitatibus quo expedita ut, neque quibusdam architecto optio incidunt mollitia accusamus illo est beatae placeat asperiores deserunt natus atque. Amet!
-						---Price 4.99$
 						<button><a href="product.html">Buy></a></button>
 					</p>
 				</section>
@@ -59,37 +57,25 @@
 						<img src="images/" alt="Third product" width="310" height="360">
 					</div>
 					<p id="Product3text">
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem omnis perspiciatis porro delectus placeat quam, perferendis repellendus consequatur, nostrum sed possimus, molestiae quae ex rerum explicabo esse cupiditate dolorem iure!
-						---Price 7.99$
+						
 						<button><a href="product.html">Buy></a></button>
 					</p>
 					<div id="Product4">
-						<img src="images/" alt="Forth product" width="310" height="360">
+						<img src="images/" width="310" height="360">
 					</div>
 					<p id="Product4text">
-						Beer box, contains 12 bottle suitable for party drinkers lower price buying as bulk 
-						---Price 20.99$
 						<button><a href="product.html">Buy></a></button>
 					</p>
 				</section>
-			</div>
-			<footer>
-				<section id="footenav">
-					<ul id="homenav"><a href="index.html">Home</a></ul>
-					<ul id="aboutnav"><a href="about.html">About</a></ul>
-					<ul id="eventnav"><a href="advertisement.html">Event</a></ul>
-					<ul id="contactnav"><a href="contact.html">Contact</a></ul>
-					<ul id="productnav"><a href="product.html">Product</a></ul>			
-				</section>				
-				<section id="Footer">
+				<section id="infoMain">
 					<h2 class="hidden">Footer Section</h2>
-					<ul id="Copyright">	
+					<ul>	
 						<li><h3>ADDRESS</h3></li>
 						<li><p>xxxxxxxxxxxxxxxxxxxxxx</p></li>
 						<li><h3> PHONE NUMBER</h3></li>
 						<li><p>xxxxxxxxxxxxxxxx</p></li>
 					</ul>
-					<ul id="hours">
+					<ul>
 						<li><h3>WORKING HOURS</h3></li>
 						<li><p>---------------</p></li>
 						<li><p>-------------</p></li>
@@ -100,11 +86,21 @@
 						<input type="text" placeholder="email">
 						<input type="submit" value="SUBMIT">
 					</div>
-				</section>
+			</div>
+			<footer>
+				<section id="footer">
+					<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="advertisement.html">Event</a></li>
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="product.html">Product</a></li>	
+				</ul>			
+				</section>				
+				
 				
 			</footer>
 		</div>
-        <script src="js/main.js"></script>
 	</body>
 
 </html>
